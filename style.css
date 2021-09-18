@@ -5,8 +5,15 @@
 }
 h1{
     text-align: center;
-    font-size: ;
+    font-size:300%; 
 }
+#translate-btn{
+    padding: 0.5rem;
+    width: 20vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 #og-text{
     display: block;
     margin: auto;
