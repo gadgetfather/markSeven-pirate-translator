@@ -1,36 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 
+}
+body{
+    background-image: linear-gradient(to right top, #0fb140, #00b167, #00af85, #00ac9b, #1aa8a8);
+    min-height: 100vh;
 }
 h1{
     text-align: center;
     font-size:300%; 
+    padding-top: 2rem;
 }
 #translate-btn{
     padding: 0.5rem;
     width: 20vh;
     margin-top: 1%;
     margin-bottom: 1%;
+    border-radius: 0.3rem;
 }
 
 #og-text{
     display: block;
     margin: auto;
     margin-top: 5%;
-    border: 1px solid black;
+    border: 2px solid black;
     height: 15vh;
     width: 50%;
     padding: 1rem;
+    text-align: left;
+    font-size: 2rem;
+    background: transparent
+    ;
 }
 main{
     text-align: center;
 }
 #output {
-    border: 1px solid black;
+    border: 2px solid black;
     height: 15vh;
     width: 50%;
     padding: 1rem;
     margin: auto;
+    text-align: left;
+    font-size: 2rem;
     
+    
+}
+#description{
+    padding-bottom: 1rem;
+    font-size: 2rem;
 }
