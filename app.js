@@ -3,7 +3,7 @@ var txtInput = document.querySelector("#og-text")
 var outputDiv = document.querySelector("#output")
 
 // var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
-var serverURL = "https://api.funtranslations.com/translate/yoda.json"
+var serverURL = "https://api.funtranslations.com/translate/pirate.json"
 
 function getTranslationUrl(text) {
     return serverURL + "?" +"text="+ text
@@ -18,7 +18,7 @@ function errorHandler(error){
 
 function clickHandler() {
 
-    //outputDiv.innerText = "sdasdas "+ txtInput.value;
+    
     var Inputtext = txtInput.value
     fetch(getTranslationUrl(Inputtext))
         .then(response => response.json())
